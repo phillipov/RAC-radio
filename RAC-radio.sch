@@ -4158,7 +4158,7 @@ LED</description>
 <wire x1="2.54" y1="-53.34" x2="33.02" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="LED_CATH" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-60.96" y1="-73.66" x2="-55.88" y2="-73.66" width="0.1524" layer="91"/>
