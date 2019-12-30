@@ -3494,6 +3494,7 @@ LED</description>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="1.8V" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="1.8V" device=""/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="1.8V" device=""/>
+<part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3693,6 +3694,9 @@ LED</description>
 <instance part="SUPPLY16" gate="G$1" x="175.26" y="81.28" smashed="yes">
 <attribute name="VALUE" x="175.26" y="84.074" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="GND18" gate="1" x="-40.64" y="55.88" smashed="yes">
+<attribute name="VALUE" x="-40.64" y="55.626" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3826,6 +3830,12 @@ LED</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="-50.8" y1="58.42" x2="-50.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-40.64" y1="58.42" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="-40.64" y1="73.66" x2="-35.56" y2="73.66" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SIM_VIN" class="0">
 <segment>
@@ -3925,10 +3935,14 @@ LED</description>
 <pinref part="U5" gate="G$1" pin="VIN"/>
 <wire x1="-35.56" y1="76.2" x2="-50.8" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="76.2" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="76.2" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="71.12" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="76.2" x2="-50.8" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-50.8" y="76.2"/>
 <pinref part="SUPPLY12" gate="G$1" pin="V_BATT"/>
+<pinref part="U5" gate="G$1" pin="EN"/>
+<wire x1="-35.56" y1="71.12" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-50.8" y="71.12"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
