@@ -501,6 +501,31 @@
 <wire x1="-0.025" y1="-1.012" x2="-0.025" y2="1.012" width="0.2" layer="21"/>
 <wire x1="-1.525" y1="1.1" x2="-0.375" y2="1.1" width="0.2" layer="21"/>
 </package>
+<package name="47346-0001">
+<description>&lt;b&gt;47346-0001&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="1.3" y="-4.81" dx="1.38" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="-4.81" dx="1.38" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-4.81" dx="1.38" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="-0.65" y="-4.81" dx="1.38" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="-1.3" y="-4.81" dx="1.38" dy="0.45" layer="1" rot="R90"/>
+<smd name="6" x="-2.4525" y="-4.45" dx="2.1" dy="1.475" layer="1" rot="R90"/>
+<smd name="7" x="2.4525" y="-4.45" dx="2.1" dy="1.475" layer="1" rot="R90"/>
+<smd name="8" x="0.8375" y="-2.15" dx="1.9" dy="1.175" layer="1" rot="R90"/>
+<smd name="9" x="-0.8375" y="-2.15" dx="1.9" dy="1.175" layer="1" rot="R90"/>
+<smd name="10" x="2.9125" y="-2.15" dx="2.375" dy="1.9" layer="1"/>
+<smd name="11" x="-2.9125" y="-2.15" dx="2.375" dy="1.9" layer="1"/>
+<text x="-0.313" y="-3.58" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.313" y="-3.58" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.2" layer="51"/>
+<wire x1="3.75" y1="0" x2="3.75" y2="-5" width="0.2" layer="51"/>
+<wire x1="3.75" y1="-5" x2="-3.75" y2="-5" width="0.2" layer="51"/>
+<wire x1="-3.75" y1="-5" x2="-3.75" y2="0" width="0.2" layer="51"/>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.2" layer="21"/>
+<wire x1="3.75" y1="-5" x2="3.75" y2="-3.373" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="-5" x2="-3.75" y2="-3.373" width="0.2" layer="21"/>
+<circle x="1.572" y="-5.79" radius="0.045890625" width="0.2" layer="25"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -623,50 +648,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.524" y1="1.016" x2="-1.524" y2="1.778" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="1.778" x2="-1.016" y2="2.286" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="2.286" x2="-0.254" y2="2.286" width="0.1524" layer="21"/>
-</package>
-<package name="USB-B-MICRO-SMD">
-<description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Micro-USB.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_MICRO-B&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<text x="-4.66" y="5.96" size="0.3048" layer="51">PCB Front</text>
-<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
-<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
-<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
-<text x="-1.27" y="4.699" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-4.699" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
-<smd name="D+" x="2.725" y="0" dx="0.4" dy="1.45" layer="1" rot="R90"/>
-<smd name="D-" x="2.725" y="0.65" dx="0.4" dy="1.45" layer="1" rot="R90"/>
-<smd name="VBUS" x="2.725" y="1.3" dx="0.4" dy="1.45" layer="1" rot="R90"/>
-<smd name="ID" x="2.725" y="-0.65" dx="0.4" dy="1.45" layer="1" rot="R90"/>
-<smd name="GND" x="2.725" y="-1.3" dx="0.4" dy="1.45" layer="1" rot="R90"/>
-<hole x="2.2" y="1.9" drill="0.85"/>
-<hole x="2.2" y="-1.9" drill="0.85"/>
-<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="31"/>
-<rectangle x1="-0.35" y1="-0.75" x2="0.35" y2="0.75" layer="31"/>
-<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="31"/>
-<wire x1="-2.15" y1="3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
-<wire x1="2.85" y1="3.9" x2="2.85" y2="-3.9" width="0.127" layer="49"/>
-<wire x1="2.85" y1="3.9" x2="-2.15" y2="3.9" width="0.127" layer="49"/>
-<wire x1="2.85" y1="-3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
-<wire x1="2.981959375" y1="3.99288125" x2="2" y2="3.99288125" width="0.3048" layer="21"/>
-<wire x1="2" y1="3.99288125" x2="2" y2="4" width="0.3048" layer="21"/>
-<wire x1="3" y1="4" x2="3" y2="3" width="0.3048" layer="21"/>
-<wire x1="2" y1="-4" x2="3" y2="-4" width="0.3048" layer="21"/>
-<wire x1="3" y1="-4" x2="3" y2="-3" width="0.3048" layer="21"/>
-<wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
-<wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
-<rectangle x1="-0.85" y1="2.684" x2="0.85" y2="4.684" layer="29"/>
-<rectangle x1="-0.85" y1="-4.684" x2="0.85" y2="-2.684" layer="29"/>
-<rectangle x1="-0.85" y1="-1.35" x2="0.85" y2="1.35" layer="29"/>
-<smd name="SHIELD1" x="0" y="3.685" dx="1.8" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="SHIELD3" x="0" y="0" dx="2.5" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="SHIELD2" x="0" y="-3.685" dx="1.8" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
-<wire x1="-2" y1="7" x2="-2" y2="0" width="0" layer="51"/>
 </package>
 <package name="JST-2-SMD">
 <description>&lt;h3&gt;JST-Right Angle Male Header SMT&lt;/h3&gt;
@@ -1076,11 +1057,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="21.463" y="29.591" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="22.225" y="29.591" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="USB-B-MICRO-SMD" value="" x="19.685" y="2.032" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.733" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CONN-11752" x="19.685" y="2.032" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="24.384" y="0.762" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
-</element>
 <element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="MCP73831" x="15.748" y="8.001" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.748" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-09995" x="15.748" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1105,11 +1081,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="22.86" y="8.001" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="23.622" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="5.334" y="4.318" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.731" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CONN-11443" x="5.334" y="4.318" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SF_ID" value="PRT-08612" x="5.334" y="4.318" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="6.985" y="3.683" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="J4" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="5.715" y="3.683" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.112" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CONN-11443" x="5.715" y="3.683" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SF_ID" value="PRT-08612" x="5.715" y="3.683" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="7.366" y="3.048" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="U1" library="rocket-components" package="NORDIC_NRF9160-SICA-R" value="NRF9160-SICA-R" x="9.271" y="31.369" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Unavailable" x="9.271" y="31.369" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1142,9 +1118,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CONN-09193" x="2.921" y="47.625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="2.921" y="47.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123FL" package3d_urn="urn:adsk.eagle:package:43458/1" value="SMF5.0AT1" x="5.334" y="12.319" smashed="yes">
-<attribute name="NAME" x="5.334" y="13.335" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="POPULARITY" value="2" x="5.334" y="12.319" size="1.778" layer="27" display="off"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD123FL" package3d_urn="urn:adsk.eagle:package:43458/1" value="SMF5.0AT1" x="5.715" y="11.684" smashed="yes">
+<attribute name="NAME" x="5.715" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="POPULARITY" value="2" x="5.715" y="11.684" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="rocket-components" package="CAPC2012X145N" value="47uF" x="11.303" y="21.717" smashed="yes">
 <attribute name="DESCRIPTION" value="0805 (2012M) 47uF MLCC 6.3V dc +/-20% SMD" x="11.303" y="21.717" size="1.778" layer="27" display="off"/>
@@ -1201,16 +1177,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J5" library="SparkFun-Connectors" package="2X5-SMD-1.27MM" value="CORTEX_JTAG_DEBUG_MINIMUM_SMD" x="21.209" y="19.431" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CONN-14503" x="21.209" y="19.431" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="J3" library="rocket-components" package="47346-0001" value="47346-1001" x="19.685" y="-0.762" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOLEX - 47346-1001 - MULTIPOLE CONNECTOR" x="19.685" y="-0.762" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="19.685" y="-0.762" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="19.685" y="-0.762" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="47346-1001" x="19.685" y="-0.762" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="538-47346-1001" x="19.685" y="-0.762" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-47346-1001" x="19.685" y="-0.762" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15.181" y="3.405" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="19.998" y="2.818" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
 <contactref element="U2" pad="1"/>
 <contactref element="C5" pad="2"/>
 <contactref element="U2" pad="9"/>
-<contactref element="J3" pad="SHIELD1"/>
-<contactref element="J3" pad="SHIELD2"/>
-<contactref element="J3" pad="SHIELD3"/>
-<contactref element="J3" pad="GND"/>
 <contactref element="R1" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="U3" pad="2"/>
@@ -1512,13 +1494,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="21.844" y="6.985" extent="1-16" drill="0.254"/>
 <wire x1="20.535" y1="9.144" x2="21.844" y2="9.144" width="0.6096" layer="1"/>
 <via x="21.844" y="9.144" extent="1-16" drill="0.254"/>
-<wire x1="16" y1="2.032" x2="17.653" y2="2.032" width="0.9144" layer="1"/>
-<via x="17.653" y="2.032" extent="1-16" drill="0.254"/>
-<wire x1="23.37" y1="2.032" x2="21.717" y2="2.032" width="0.9144" layer="1"/>
-<via x="21.717" y="2.032" extent="1-16" drill="0.254"/>
-<wire x1="19.685" y1="2.032" x2="17.653" y2="2.032" width="0.9144" layer="1"/>
-<wire x1="19.685" y1="2.032" x2="21.717" y2="2.032" width="0.9144" layer="1"/>
-<wire x1="20.985" y1="4.757" x2="20.985" y2="5.812" width="0.3048" layer="1"/>
 <wire x1="20.535" y1="6.262" x2="20.535" y2="6.985" width="0.3048" layer="1"/>
 <wire x1="20.985" y1="5.812" x2="20.535" y2="6.262" width="0.3048" layer="1"/>
 <wire x1="12.192" y1="9.105" x2="12.993" y2="9.105" width="0.4572" layer="1"/>
@@ -1542,14 +1517,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.844" y1="38.481" x2="21.336" y2="38.481" width="0.4572" layer="1"/>
 <via x="21.336" y="38.481" extent="1-16" drill="0.254"/>
 <wire x1="22.225" y1="38.1" x2="21.844" y2="38.481" width="0.4572" layer="1"/>
-<wire x1="6.334" y1="8.018" x2="6.334" y2="10.906" width="0.9144" layer="1"/>
-<wire x1="6.334" y1="10.906" x2="6.35" y2="10.922" width="0.9144" layer="1"/>
-<via x="6.35" y="10.922" extent="1-16" drill="0.254"/>
-<wire x1="6.959" y1="12.319" x2="6.959" y2="11.531" width="0.9144" layer="1"/>
-<wire x1="6.959" y1="11.531" x2="6.35" y2="10.922" width="0.9144" layer="1"/>
-<wire x1="6.334" y1="8.018" x2="6.334" y2="5.223" width="0.9144" layer="1"/>
-<wire x1="6.334" y1="5.223" x2="6.35" y2="5.207" width="0.9144" layer="1"/>
-<via x="6.35" y="5.207" extent="1-16" drill="0.254"/>
+<wire x1="6.715" y1="7.383" x2="6.715" y2="10.271" width="0.9144" layer="1"/>
+<wire x1="6.715" y1="10.271" x2="6.731" y2="10.287" width="0.9144" layer="1"/>
+<via x="6.731" y="10.287" extent="1-16" drill="0.254"/>
+<wire x1="7.34" y1="11.684" x2="7.34" y2="10.896" width="0.9144" layer="1"/>
+<wire x1="7.34" y1="10.896" x2="6.731" y2="10.287" width="0.9144" layer="1"/>
+<wire x1="6.715" y1="7.383" x2="6.715" y2="4.588" width="0.9144" layer="1"/>
+<wire x1="6.715" y1="4.588" x2="6.731" y2="4.572" width="0.9144" layer="1"/>
+<via x="6.731" y="4.572" extent="1-16" drill="0.254"/>
 <wire x1="22.225" y1="37.221" x2="22.225" y2="36.576" width="0.4572" layer="1"/>
 <wire x1="22.225" y1="36.576" x2="20.32" y2="34.671" width="0.4572" layer="1"/>
 <wire x1="22.225" y1="28.741" x2="22.225" y2="27.432" width="0.4572" layer="1"/>
@@ -1714,6 +1689,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="23.7363" y="45.124" extent="1-16" drill="0.254"/>
 <via x="22.4663" y="47.664" extent="1-16" drill="0.254"/>
 <via x="6.35" y="45.593" extent="1-16" drill="0.254"/>
+<contactref element="J3" pad="5"/>
+<wire x1="20.985" y1="4.048" x2="20.985" y2="5.812" width="0.3048" layer="1"/>
 </signal>
 <signal name="SIM_VIN">
 <contactref element="U2" pad="8"/>
@@ -1783,9 +1760,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.4479" y1="7.051" x2="13.396" y2="7.051" width="0.4572" layer="1"/>
 <wire x1="13.042" y1="7.405" x2="12.192" y2="7.405" width="0.4572" layer="1"/>
 <wire x1="13.396" y1="7.051" x2="13.042" y2="7.405" width="0.4572" layer="1"/>
-<wire x1="3.709" y1="12.319" x2="3.709" y2="11.658" width="0.9144" layer="1"/>
-<wire x1="4.334" y1="11.033" x2="4.334" y2="8.018" width="0.9144" layer="1"/>
-<wire x1="3.709" y1="11.658" x2="4.334" y2="11.033" width="0.9144" layer="1"/>
+<wire x1="4.09" y1="11.684" x2="4.09" y2="11.023" width="0.9144" layer="1"/>
+<wire x1="4.715" y1="10.398" x2="4.715" y2="7.383" width="0.9144" layer="1"/>
+<wire x1="4.09" y1="11.023" x2="4.715" y2="10.398" width="0.9144" layer="1"/>
 <wire x1="3.849" y1="21.844" x2="3.849" y2="22.694" width="0.3048" layer="1"/>
 <wire x1="3.429" y1="23.114" x2="3.429" y2="23.876" width="0.3048" layer="1"/>
 <wire x1="3.429" y1="23.876" x2="3.672" y2="24.119" width="0.3048" layer="1"/>
@@ -1802,11 +1779,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="V_USB">
-<contactref element="J3" pad="VBUS"/>
 <contactref element="R2" pad="2"/>
 <contactref element="U3" pad="4"/>
 <contactref element="C6" pad="1"/>
-<wire x1="18.385" y1="4.757" x2="18.385" y2="5.812" width="0.3048" layer="1"/>
 <wire x1="18.835" y1="6.262" x2="18.835" y2="6.985" width="0.3048" layer="1"/>
 <wire x1="18.385" y1="5.812" x2="18.835" y2="6.262" width="0.3048" layer="1"/>
 <wire x1="17.0481" y1="7.051" x2="18.769" y2="7.051" width="0.4572" layer="1"/>
@@ -1816,12 +1791,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="22.948" y1="7.151" x2="22.098" y2="8.001" width="0.3048" layer="1"/>
 <wire x1="22.098" y1="8.001" x2="19.05" y2="8.001" width="0.3048" layer="1"/>
 <wire x1="19.05" y1="8.001" x2="18.769" y2="7.72" width="0.3048" layer="1"/>
-</signal>
-<signal name="USB_DM">
-<contactref element="J3" pad="D-"/>
-</signal>
-<signal name="USB_DP">
-<contactref element="J3" pad="D+"/>
+<contactref element="J3" pad="1"/>
+<wire x1="18.385" y1="4.048" x2="18.385" y2="5.812" width="0.3048" layer="1"/>
 </signal>
 <signal name="PROG">
 <contactref element="U3" pad="5"/>
@@ -2001,10 +1972,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,f1c5861d6263d31d"/>
-<approved hash="4,1,bb065dfbc7a737d0"/>
-<approved hash="4,1,6faeec009e98fedc"/>
-<approved hash="4,1,e7d3e7acb5627e55"/>
 <approved hash="5,1,062d3da9625feeac"/>
 <approved hash="5,1,fefed524e25feeff"/>
 <approved hash="5,1,f16fd524e259e168"/>
