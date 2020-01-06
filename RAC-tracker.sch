@@ -3278,9 +3278,9 @@ LED</description>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
-<part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
+<part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SMF5.0AT1" device="" package3d_urn="urn:adsk.eagle:package:43458/1"/>
 <part name="C4" library="rocket-components" deviceset="JMK212BBJ476MG-T" device="" value="47uF"/>
@@ -3408,13 +3408,13 @@ LED</description>
 <instance part="SUPPLY11" gate="G$1" x="33.02" y="63.5" smashed="yes">
 <attribute name="VALUE" x="33.02" y="66.294" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="109.22" y="17.78" smashed="yes" rot="MR0">
+<instance part="J2" gate="G$1" x="109.22" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="113.03" y="21.844" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="GND16" gate="1" x="116.84" y="2.54" smashed="yes">
 <attribute name="VALUE" x="116.84" y="2.286" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="246.38" y="55.88" smashed="yes">
+<instance part="J1" gate="G$1" x="246.38" y="55.88" smashed="yes">
 <attribute name="NAME" x="242.57" y="59.944" size="1.778" layer="95"/>
 </instance>
 <instance part="GND17" gate="1" x="238.76" y="40.64" smashed="yes">
@@ -3585,21 +3585,21 @@ LED</description>
 <junction x="93.98" y="-43.18"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND@1"/>
+<pinref part="J2" gate="G$1" pin="GND@1"/>
 <wire x1="111.76" y1="10.16" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="116.84" y1="10.16" x2="116.84" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND@0"/>
+<pinref part="J2" gate="G$1" pin="GND@0"/>
 <wire x1="111.76" y1="12.7" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="12.7" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
 <junction x="116.84" y="10.16"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="GND@1"/>
+<pinref part="J1" gate="G$1" pin="GND@1"/>
 <wire x1="243.84" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="238.76" y1="48.26" x2="238.76" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="GND@0"/>
+<pinref part="J1" gate="G$1" pin="GND@0"/>
 <wire x1="243.84" y1="50.8" x2="238.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="50.8" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 <junction x="238.76" y="48.26"/>
@@ -3842,7 +3842,7 @@ LED</description>
 <net name="LTE_ANT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="ANT"/>
-<pinref part="J1" gate="G$1" pin="SIGNAL"/>
+<pinref part="J2" gate="G$1" pin="SIGNAL"/>
 <wire x1="88.9" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3876,7 +3876,7 @@ LED</description>
 </net>
 <net name="GPS_ANT" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="SIGNAL"/>
+<pinref part="J1" gate="G$1" pin="SIGNAL"/>
 <wire x1="251.46" y1="55.88" x2="256.54" y2="55.88" width="0.1524" layer="91"/>
 <label x="256.54" y="55.88" size="1.778" layer="95"/>
 </segment>
